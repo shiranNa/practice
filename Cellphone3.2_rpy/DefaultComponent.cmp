@@ -1,0 +1,284 @@
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
+{ IComponent 
+	- _id = GUID d503c882-9f3a-4449-9c88-f45b9a18450e;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 10.4.2016::21:52:4;
+	- _lastID = 2;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID fb961645-e57e-4c7c-b65b-4633607dcba7;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 9.18.2016::10:3:5;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 1ef30d17-f9c3-4444-a5c2-ac921da75d58;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 1ef30d17-f9c3-4444-a5c2-ac921da75d58;
+			- _myState = 8192;
+			- _name = "Debug";
+			- _modifiedTimeWeak = 9.18.2016::10:39:13;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 3567f391-ef60-4727-bfbd-0bb2a133bca8;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\avron\\Desktop\\Cellphone3.0\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID f912232a-4bc4-4baa-a863-8a65da222944;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\avron\\Desktop\\Cellphone3.0\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Animation;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Button";
+					- _id = GUID 7b4a364b-eb55-4cd1-8e52-67670f1185bb;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID c0d65847-db0b-4a3b-b408-16c1ca046b6a;
+				- _myState = 8192;
+				- _name = "Debug";
+				- _modifiedTimeWeak = 9.18.2016::10:7:11;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 9.18.2016::10:39:13;
+			- strongCGTime = 9.18.2016::10:22:49;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 4cf52e4d-37cc-4801-a980-3c99f293d08b;
+			- _myState = 8192;
+			- _name = "Realese";
+			- _modifiedTimeWeak = 9.18.2016::10:6:58;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 1b8ec27b-1c79-41bd-9e46-fd38fddc2637;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\avron\\Desktop\\Cellphone3.0\\DefaultComponent\\configuration_0\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 9fc8db75-ed3f-4da1-9106-086b3e173886;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\avron\\Desktop\\Cellphone3.0\\DefaultComponent\\configuration_0\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID 03641f84-3b81-4568-bff2-315ba4d76c3d;
+				- _myState = 8192;
+				- _name = "Realese";
+				- _modifiedTimeWeak = 9.18.2016::10:6:58;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 9.18.2016::10:6:58;
+			- strongCGTime = 9.18.2016::10:6:58;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+		{ ICodeGenConfigInfo 
+			- _id = GUID 4d01ed75-0b21-40ba-9a47-471458fe6ec9;
+			- _myState = 8192;
+			- _name = "Trace";
+			- _modifiedTimeWeak = 9.18.2016::10:22:42;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 080f9968-11a4-4041-a36a-bb62f4ce27fa;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\avron\\Desktop\\Cellphone3.0\\DefaultComponent\\configuration_1\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 4eb907f1-6dcb-48ae-a18e-01f1adbdfb59;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\avron\\Desktop\\Cellphone3.0\\DefaultComponent\\configuration_1\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = Tracing;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Button";
+					- _id = GUID 7b4a364b-eb55-4cd1-8e52-67670f1185bb;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID 49f1b799-0158-4758-b0d9-09c8f50dd4d3;
+				- _myState = 8192;
+				- _name = "Trace";
+				- _modifiedTimeWeak = 9.18.2016::10:7:20;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 9.18.2016::10:22:42;
+			- strongCGTime = 9.18.2016::10:22:42;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 47a5e327-57e3-4dc6-8474-990add7225f5;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 10.4.2016::21:52:4;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

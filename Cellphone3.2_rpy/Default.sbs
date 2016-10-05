@@ -1,0 +1,310 @@
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
+{ ISubsystem 
+	- _id = GUID 47a5e327-57e3-4dc6-8474-990add7225f5;
+	- _myState = 8192;
+	- _name = "Default";
+	- _modifiedTimeWeak = 10.4.2016::21:52:4;
+	- _lastID = 5;
+	- weakCGTime = 10.4.2016::21:52:4;
+	- strongCGTime = 1.2.1990::0:0:0;
+	- _defaultComposite = GUID 29a20321-9d72-4caa-b8ae-4dbc8f5e0238;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IClass 
+			- _id = GUID 29a20321-9d72-4caa-b8ae-4dbc8f5e0238;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 9.18.2016::10:46:50;
+			- weakCGTime = 9.18.2016::10:46:50;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID f94c0edd-75d3-4f8c-bd5a-d2b3705c3b9c;
+			- _myState = 8192;
+			- _name = "Speaker";
+			- _modifiedTimeWeak = 9.18.2016::10:38:24;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 7b0d8b15-eb47-44b9-8307-c8f5190ba515;
+			}
+			- weakCGTime = 9.18.2016::10:38:24;
+			- strongCGTime = 9.18.2016::10:3:23;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 2361b89a-a12e-4473-a313-881d4b20802c;
+			- _myState = 8192;
+			- _name = "CellularRadio";
+			- _modifiedTimeWeak = 9.18.2016::10:38:18;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 7b0d8b15-eb47-44b9-8307-c8f5190ba515;
+			}
+			- weakCGTime = 9.18.2016::10:38:18;
+			- strongCGTime = 9.18.2016::10:4:32;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 9566e91f-715a-4b7e-8e8d-e6104c97e202;
+					- _myState = 10240;
+					- _name = "itsDialer";
+					- _modifiedTimeWeak = 9.18.2016::10:5:17;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID e3f7b494-0526-4778-a992-828836d822df;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ba570c53-3d9c-4201-948a-40c5028016a2;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 7cf6f7d9-79ee-47be-88dc-4945294aa649;
+					- _myState = 10240;
+					- _name = "itsDisplay";
+					- _modifiedTimeWeak = 9.18.2016::10:36:48;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fef3a5d7-7fcc-4cae-a043-986bb0545416;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 7b4a364b-eb55-4cd1-8e52-67670f1185bb;
+			- _myState = 8192;
+			- _name = "Button";
+			- _modifiedTimeWeak = 9.18.2016::10:38:16;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 7b0d8b15-eb47-44b9-8307-c8f5190ba515;
+			}
+			- weakCGTime = 9.18.2016::10:38:16;
+			- strongCGTime = 9.18.2016::10:3:53;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = GUID e8c05aa0-668a-42d4-a98e-e268601b0916;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 9.18.2016::10:27:41;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "            setItsDialer(new Dialer);";
+					}
+					- _initializer = "";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID d1648c99-72ee-482b-9884-7adfdc122ac7;
+					- _myState = 10240;
+					- _name = "itsDialer";
+					- _modifiedTimeWeak = 9.18.2016::10:4:57;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID e3f7b494-0526-4778-a992-828836d822df;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID fef3a5d7-7fcc-4cae-a043-986bb0545416;
+			- _myState = 8192;
+			- _name = "Display";
+			- _modifiedTimeWeak = 9.18.2016::10:38:22;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 7b0d8b15-eb47-44b9-8307-c8f5190ba515;
+			}
+			- weakCGTime = 9.18.2016::10:38:22;
+			- strongCGTime = 9.18.2016::10:4:51;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID e3f7b494-0526-4778-a992-828836d822df;
+			- _myState = 8192;
+			- _name = "Dialer";
+			- _modifiedTimeWeak = 9.18.2016::10:38:20;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID 7b0d8b15-eb47-44b9-8307-c8f5190ba515;
+			}
+			- weakCGTime = 9.18.2016::10:38:20;
+			- strongCGTime = 9.18.2016::10:4:9;
+			- Operations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IConstructor 
+					- _id = GUID dd81c402-6c6b-4482-bb5c-178ac830b4dd;
+					- _myState = 8192;
+					- _modifiedTimeWeak = 9.18.2016::10:28:22;
+					- _virtual = 0;
+					- Args = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _returnType = { IHandle 
+						- _m2Class = "";
+					}
+					- _abstract = 0;
+					- _final = 0;
+					- _concurrency = Sequential;
+					- _protection = iPublic;
+					- _static = 0;
+					- _constant = 0;
+					- _itsBody = { IBody 
+						- _bodyData = "            setItsSpeaker (new Speaker);                   
+            setItsDisplay (new Display);                   
+            setItsCellularRadio (new CellularRadio);       
+            itsCellularRadio->setItsDisplay(itsDisplay);   ";
+					}
+					- _initializer = "
+
+
+";
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 6c026e55-59f1-4537-8ae2-d0991bb31778;
+					- _myState = 10240;
+					- _name = "itsSpeaker";
+					- _modifiedTimeWeak = 9.18.2016::10:5:1;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID f94c0edd-75d3-4f8c-bd5a-d2b3705c3b9c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 2eb3bb8f-bfff-4489-bc5f-d7e96dd9caad;
+					- _myState = 10240;
+					- _name = "itsDisplay";
+					- _modifiedTimeWeak = 9.18.2016::10:5:14;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID fef3a5d7-7fcc-4cae-a043-986bb0545416;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID ba570c53-3d9c-4201-948a-40c5028016a2;
+					- _myState = 10240;
+					- _name = "itsCellularRadio";
+					- _modifiedTimeWeak = 9.18.2016::10:5:17;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2361b89a-a12e-4473-a313-881d4b20802c;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 9566e91f-715a-4b7e-8e8d-e6104c97e202;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

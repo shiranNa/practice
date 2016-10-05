@@ -1,0 +1,83 @@
+I-Logix-RPY-Archive version 8.11.0 * 9499822
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 12;
+	- value = "DefaultComponent\\Trace\\Button.cpp" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Button.h" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\CellularRadio.cpp" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\CellularRadio.h" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Default.cpp" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Default.h" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Dialer.cpp" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Dialer.h" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Display.cpp" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Display.h" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Speaker.cpp" 10.4.2016::21:52:48
+	"DefaultComponent\\Trace\\Speaker.h" 10.4.2016::21:52:48
+	
+}
+- size = 7;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Display";
+	- _id = GUID fef3a5d7-7fcc-4cae-a043-986bb0545416;
+}
+- genTime = 10.4.2016::21:52:48;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Speaker";
+	- _id = GUID f94c0edd-75d3-4f8c-bd5a-d2b3705c3b9c;
+}
+- genTime = 10.4.2016::21:52:48;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Button";
+	- _id = GUID 7b4a364b-eb55-4cd1-8e52-67670f1185bb;
+}
+- genTime = 10.4.2016::21:52:48;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\Trace";
+	- _id = GUID 4d01ed75-0b21-40ba-9a47-471458fe6ec9;
+}
+- genTime = 10.4.2016::21:52:48;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "CellularRadio";
+	- _id = GUID 2361b89a-a12e-4473-a313-881d4b20802c;
+}
+- genTime = 10.4.2016::21:52:48;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Dialer";
+	- _id = GUID e3f7b494-0526-4778-a992-828836d822df;
+}
+- genTime = 10.4.2016::21:52:48;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Default.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "Default";
+	- _id = GUID 47a5e327-57e3-4dc6-8474-990add7225f5;
+}
+- genTime = 10.4.2016::21:52:48;
+
